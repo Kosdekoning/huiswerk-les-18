@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nijmegen website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Nijmegen%2C_stadszicht_vanaf_de_spoorbrug_foto5_2016-03-26_17.47.jpg/640px-Nijmegen%2C_stadszicht_vanaf_de_spoorbrug_foto5_2016-03-26_17.47.jpg);
+    font-size: 64px;
+        padding: 20px 0;
+  }
+
+  .central-part {
+    display: flex;
+  }
+
+  .left-part {
+    flex: 2;
+    padding: 20px;
+  }
+
+  .left-part h2 {
+    font-size: 24px;
+  }
+
+  .left-part ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .left-part li {
+    margin-bottom: 10px;
+  }
+
+  .right-part {
+    flex: 9;
+    background-color: #d1eff2;
+    padding: 20px;
+  }
+
+  .content {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    flex: 7;
+    margin-right: 10px;
+  }
+
+  .content img {
+    flex: 3;
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+
+  /* Media Query for Mobile Devices */
+  @media (max-width: 600px) {
+    header {
+        font-size: 24px;
+    }
+
+    .left-part {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .right-part {
+        flex: 1;
+        padding: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Nijmegen</h1>
+    </header>
+
+    <div class="central-part">
+        <div class="left-part">
+            <h2>Feitjes over Nijmegen</h2>
+            <ul>
+                <li>Nijmegen is de oudste stad van Nederland</li>
+                <li>Nijmegen is in 1944 gebombardeerd door de Geallieerden</li>
+                <li>De stad staat bekend om de jaarijkse Wandelvierdaagse</li>
+                <li>Frank Boeijen is een bekende Nijmegenaar</li>
+                <li>Nijmegen heeft een links bestuurscollege</li>
+            </ul>
+        </div>
+
+        <div class="right-part">
+            <div class="content">
+                <p>De Grote Markt, Grootemarkt of Kruismarkt is het grote plein in het centrum van de Nederlandse stad Nijmegen. Het plein heeft in de geschiedenis vele namen gekend, waaronder Cruys en Cruys Marct, vermoedelijk ontleend aan een kruis dat ter plaatse als zinnebeeld van het marktrecht heeft gestaan. Op 9 juli 1924 krijgt het bij besluit van de gemeenteraad officieel de naam "Groote Markt"</p>
+                <img src="Stad.jpg" alt="Stad 1">
+            </div>
+            <div class="content">
+                <p>De Waalbrug is een boogbrug over de Waal die het centrum van Nijmegen met Lent verbindt. De brug maakt deel uit van de N325 en de stadsroute S100. Twee kilometer westelijker ligt de in 2013 geopende stadsbrug De Oversteek</p>
+                <img src="Nijmegen.jpg" alt="Nijmegen 2">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Konstantijn. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
